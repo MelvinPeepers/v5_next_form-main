@@ -5,3 +5,7 @@ publish = ".next"
 
   [build.environment]
   NEXT_PRIVATE_TARGET = "server"
+
+
+[[plugins]]
+  package = "./netlify-plugin-upload-function-bundle/"
